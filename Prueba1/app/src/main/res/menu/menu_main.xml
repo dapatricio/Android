@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="https://Schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="secretariatecnicadedrogasec.prueba1.Actividad_Principal">
+
+    <item android:id="@+id/action_settings"
+          android:title="Configuracion"
+          android:orderInCategory="100"
+          android:showAsAction="never" /> -<!--android:showAsAction="ifroom" android:showAsAction="ifroom|withText" esto sirve para mostrar en el action bar icono y texto o icono o solo texto-->
+    <item android:id="@+id/opcion1"
+
+        android:title="Acerca de Nosotros"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

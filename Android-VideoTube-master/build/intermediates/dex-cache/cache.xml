@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="2461ccc6f382676a64bcb8071d265bd2db2a310b">
+        <dex dex="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_13576fc1befd6b265055e1404468fdebb1173b30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_067da96210736583334dd525438c77d2eaf6850b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dapat\Desktop\Android-VideoTube-master\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\YouTubeAndroidPlayerApi_4d5206720347234ba51347b6375d221b84058f85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_9b9787c7360204271059f370bdfd3029ad7631d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dapat\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_496b972ee68d9db57b05b83212e4f87b4b2352eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="926cf3e03d8cd16185b84f0033fe78e05d8e2796">
+        <dex dex="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a02cdc39cbfb1e0e8ce9bbf8d8b761fa83c311a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\dapat\Desktop\Android-VideoTube-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_d51f58087a59d16d9e4faa87dba28474a658563b\classes.dex" />
+    </item>
+
+</items>

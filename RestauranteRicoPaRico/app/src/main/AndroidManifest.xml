@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.herprogramacion.restaurantericoparico"
+    android:installLocation="auto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RicoPaRico">
+        <activity android:name=".ui.PantallaDeInicio1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.PantallaDeInicio2">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.PantallaDeInicio2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ActividadPrincipal"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ConNavigationDrawer">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadPrincipal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ActividadConfiguracion"
+            android:label="@string/titulo_actividad_configuracion"
+            android:parentActivityName=".ui.ActividadPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.ActividadPrincipal" />
+        </activity>
+        <activity android:name=".ui.ActividadInformacion1">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInformacion2">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInformacion3">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInformacion4">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInformacion5">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInformacion6">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInformacion7">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInformacion8">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInformacion9">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInformacion9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActividadInfo10">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadInfo10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.Actividad_lista">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.ActividadLista" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MapaGoogle"
+            android:label="@string/title_activity_mapa_google">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.MapaGoogle" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Actividad_Youtube"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.herprogramacion.restaurantericoparico.Actividad_Youtube" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+</manifest>

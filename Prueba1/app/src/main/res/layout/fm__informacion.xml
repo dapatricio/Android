@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="secretariatecnicadedrogasec.prueba1.Fragment_Informacion">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dip"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dip"
+        android:groupIndicator="@drawable/indicadores"
+        ></ExpandableListView>
+
+
+</LinearLayout>

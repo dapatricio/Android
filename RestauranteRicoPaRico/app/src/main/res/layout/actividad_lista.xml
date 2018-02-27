@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actividad_lista"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.herprogramacion.restaurantericoparico.ui.Actividad_lista">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#0000FF">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dip"
+                android:layout_marginLeft="10dip"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btnback"
+                android:onClick="btnBack1"
+                android:adjustViewBounds="true"
+                android:background="#0000FF"/>
+
+            <ImageButton
+                android:id="@+id/btnHome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dip"
+                android:layout_marginLeft="10dip"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btnhome"
+                android:onClick="btnBack1"
+                android:adjustViewBounds="true"
+                android:background="#0000FF"/>
+
+            <TextView
+                android:text="Centros de Salud Cercanos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView17"
+                android:textSize="19dip"
+                android:textStyle="bold"
+                android:paddingTop="20dip"
+                android:paddingBottom="20dip"
+                android:layout_marginLeft="10dip"
+                android:paddingRight="10dip"
+                android:textColor="#fff"/>
+        </TableRow>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                >
+
+                <TextView
+                    android:text="Selecciona el Centro de Salud mas cercano:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:layout_margin="10dip"
+                    android:padding="5dip"
+                    android:textSize="20dip"
+                    android:textStyle="bold"/>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:onClick="centros1"
+                    android:id="@+id/tabla1"
+                    android:background="@color/primaryColor"
+                    android:layout_marginTop="5dip">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/marker" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dip"
+                        android:background="@drawable/back">
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Canton:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView2"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="Loja"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView3"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Nombre:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView4"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="Centro de Salud #1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5dip"
+                                android:id="@+id/textView5"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Telefono:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView6"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="0999999999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView7"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Lat-Lon:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView65"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="-3.996335,-79.202382"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/cord1"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:onClick="centros2"
+                    android:id="@+id/tabla2"
+                    android:background="@color/primaryColor"
+                    android:layout_marginTop="5dip">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/marker" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dip"
+                        android:background="@drawable/back">
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Canton:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView21"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="Loja"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView31"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Nombre:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView41"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="Centro de Salud #2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5dip"
+                                android:id="@+id/textView51"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Telefono:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView61"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="0999999999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView71"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Lat-Lon:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView64"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="-3.972670,-79.201396"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/cord2"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:onClick="centros3"
+                    android:id="@+id/tabla3"
+                    android:background="@color/primaryColor"
+                    android:layout_marginTop="5dip">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/marker" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dip"
+                        android:background="@drawable/back">
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Canton:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView22"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="Loja"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView32"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Nombre:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView42"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="Centro de Salud #3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5dip"
+                                android:id="@+id/textView52"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Telefono:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView62"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="0999999999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView72"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:text="Lat-Lon:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView63"
+                                android:padding="5dip"
+                                android:textSize="20dip"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:text="-3.984009,-79.202734"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/cord3"
+                                android:padding="5dip"
+                                android:textSize="20dip"/>
+                        </TableRow>
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

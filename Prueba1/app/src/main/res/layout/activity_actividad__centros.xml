@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividad_CentrosSalud"
+    android:id="@+id/drawerLayout4">
+
+    <!--menu Swipe-->
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--Contenido Principal-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainLayout4"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <!--Menu Lateral-->
+
+    <ListView
+        android:layout_gravity="start"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:id="@+id/menuLateral"
+        android:background="#d9d9d9">
+    </ListView>
+
+
+</android.support.v4.widget.DrawerLayout>
+
+
